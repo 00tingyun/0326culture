@@ -1,0 +1,83 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600&display=swap');
+body {
+	font-family: 'Noto Serif TC', serif;
+}
+.contain {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.contain h1 {
+	color: #9E633F;
+	text-align: center;
+	font-size: 40px;
+}
+.contain nav a:link  {
+	color: #E4C3C4;
+	text-align: center;
+	text-decoration: none;
+}
+.contain header {
+	border-color: #D09BC3;
+	border-style: hidden;
+	border-radius: 2px;
+	border-collapse: collapse;
+	text-align: center;
+}
+.heroIMG {
+	background-image: url(0326/heroIMG.jpg);
+	height: 360px;
+	background-position: center -191px;
+	background-size: cover;
+	border-radius: 5px;
+}
+.main article {
+}
+main article #a01 {
+	border-width: thick;
+	border-style: outset;
+	border-top-right-radius: 10px;
+	clear: right;
+	font-variant: small-caps;
+	font-weight: lighter;
+	color: #254E5E;
+}
+
+
+main article #a02 {
+	border-width: thick;
+	border-style: outset;
+	border-top-right-radius: 10px;
+	clear: right;
+	font-variant: small-caps;
+	font-weight: lighter;
+}
+.article ul li a:link {
+	color: #1B1818;
+	text-align: left;
+	text-decoration: none;
+}
+.article ul li a:hover {
+	color: #F53235;
+	font-size: 24px;
+	text-decoration: none;
+}
+article ul h3 {
+	font-weight: 400;
+	border-radius: 8px;
+	border-top-color: #D8E9DE;
+	border-top-width: thick;
+	background-color: #C2EACE;
+	line-height: 35px;
+}
+.contain nav a:hover {
+	text-decoration: overline;
+	color: #254E5E;
+	font-size: 28px;
+}
+
+
+body footer {
+	text-align: center;
+}
